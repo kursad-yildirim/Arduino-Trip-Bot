@@ -15,21 +15,22 @@
 
 #include "lib/tripbot.h"
 
+tripMotor tripMotor;
+
 int contour = 20.5;
 int speedSecond = 0;
 
 void setup() {
-  setupMotor(); // Motor Shield Set Up
   setupSensorUltraSonic(); // Ultrasonic Sensor Setup
   setupSensorSpeed(); // Speed Sensor Setup
   setupBluetooth(); // Bluetooth Shield Setup
 }
 
 void loop() {
-  goForward();
+  tripMotor.goForward();
   speedSecond = getSpeed() * contour / 60;
   sendToBlueTooth("Speed => " + String(speedSecond) + " cm/sec" );
   delay(3000);
-  fullStop();
+  tripMotor.fullStop();
   delay(10000);
 }
