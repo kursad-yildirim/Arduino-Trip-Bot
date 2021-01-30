@@ -36,3 +36,5 @@ Trip-Bot is an Arduino Uno R3 based robot car. It has equipped with sensors, blu
             <li>On/Off Switch</li>
         </ul>
     </p>
+
+    # Arduino-Trip-Controller
