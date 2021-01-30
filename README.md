@@ -1,7 +1,8 @@
 # Arduino-Trip-Bot
 Trip-Bot is an Arduino Uno R3 based robot car. It has equipped with sensors, bluetooth and remote control (over bluetooth).
 
-<h1>Hardware</h1>
+<h1>Trip-Bot</h1>
+<h2>Hardware</h2>
     <p>
         <b><u>ARDUINO</u></b><br>
         <a target="_blank" href="https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_2_sspa?dchild=1&keywords=arduino+uno&qid=1611699587&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNlNRTzY3RUZENzNVJmVuY3J5cHRlZElkPUEwOTQzOTgwM08wTElUQzg4WUxBUCZlbmNyeXB0ZWRBZElkPUEwNzY1NzM2M0VJQ0VJMTdZNDVHWCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="> Arduino UNO R3 </a><br>
@@ -37,4 +38,4 @@ Trip-Bot is an Arduino Uno R3 based robot car. It has equipped with sensors, blu
         </ul>
     </p>
 
-    # Arduino-Trip-Controller
+<h1>Trip-Controller</h1>
